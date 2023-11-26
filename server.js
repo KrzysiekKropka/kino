@@ -1,6 +1,6 @@
 const express = require('express')
 const mongoose = require('mongoose')
-const uri = 'mongodb+srv://krzysztofkropopek:fXuius3yLuVu2gGF@pawelposting.xcuhi6f.mongodb.net/?retryWrites=true&w=majority'
+const uri = 'mongodb+srv://user:6rAgQioEDUMubruk@pawelposting.xcuhi6f.mongodb.net/?retryWrites=true&w=majority'
 const routerMiejsc = require('./routes/miejsca')
 const app = express()
 
