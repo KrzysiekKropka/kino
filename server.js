@@ -31,3 +31,5 @@ app.get('/', (req, res) =>
 {
 res.render('index')
 })
+
+app.use(express.static(('views')));
