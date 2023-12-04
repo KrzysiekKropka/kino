@@ -33,3 +33,5 @@ res.render('index')
 })
 
 app.use(express.static(('views')));
+
+app.use('*/css', express.static(('views/css')));
