@@ -10,15 +10,22 @@ body{
 
 
 
-.okno-outter{
+.okno-outer-title{
     width: 30%;
     background-color: black;
     padding: 0.1vw;
     margin: 1vw;
     filter: drop-shadow(0.5vw 0.5vw rgba(0, 0, 0, 0.5));
 }
+.okno-outer{
+    width: 90%;
+    background-color: black;
+    padding: 0.1vw;
+    margin: 1vw;
+    filter: drop-shadow(0.5vw 0.5vw rgba(0, 0, 0, 0.5));
+}
 
-.okno-outter-in{
+.okno-outer-in{
     background-color: white;
     /* width: 90%; */
     padding: 0.1vw;
@@ -27,10 +34,10 @@ body{
 }
 
 
-.okno-inner{
+.okno-inner-title{
     background-color: #259972;
     /* width: 90%; */
-    padding: 1vh;
+    padding: 0.75vh;
     font-family: pixeled;
     color: white;
     text-align: center;
@@ -38,18 +45,132 @@ body{
     font-size: 2vw;
     text-shadow: 0.2vw 0.2vw black;
     /* z-index: 0; */
+
+    /* display: flex; */
+    
 }
+.okno-inner{
+    background-color: #259972;
+    /* width: 90%; */
+    padding: 0.75vh;
+    font-family: pixeled;
+    color: white;
+    text-align: center;
+    top:50%;
+    font-size: 2vw;
+    text-shadow: 0.2vw 0.2vw black;
+    /* z-index: 0; */
+    position: relative;
+
+    display: flex;
+    
+}
+
 
 .inner-button
 {
-    font-size: 4vw;
+    /* white-space: normal; */
+    /* word-wrap: unset; */
+
+    width: fit-content;
+    /* float: left; */
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    margin-right: 3vw;
+    font-size: 1.5vw;
     background-color: white;
     /* padding: 0.5vh; */
     border: none;
-    width:100%;
+    /* width: 15%; */
     height: 100%;
-    /* filter: drop-shadow(-2px 2px -2px -2px black) */
+    font-family: pixeled;
+    float: center;
+    text-align: center;
+    border: 2px solid black
+
+
+        /* font-display:inherit; */
+
 
 }
 
+.inner-button:hover{
+    background-color: rgb(214, 214, 214);
+}
 
+.lines-1{
+   top: 15%;
+   position: absolute;
+}
+.lines-2{
+   top: 40%;
+   position: absolute;
+}
+.lines-3{
+   top: 65%;
+   position: absolute;
+}
+
+.line{
+      /* display: */
+      background-color: black;
+      height: 0.75vh;
+      width: 38%;
+      /* max-width: 100%; */
+      /* float: right; */
+      left: 50vw;
+      margin-top: 0.75vh;
+      margin-left: 1.5vw;
+      margin-right: 1.5vw;
+      position: fixed;
+      /* vertical-align: top; */
+      /* list-style: none; */
+} 
+
+
+.okno-outer-movie{
+    /* padding-left: 20vw; */
+    margin-left: 2em;
+    width: 50%;
+    background-color: black;
+    padding: 0.1vw;
+    margin-top: 1.5vw;
+    margin-left: 3vw;
+    filter: drop-shadow(0.5vw 0.5vw rgba(0, 0, 0, 0.5));
+}
+
+
+.movie-display{
+    /* width: 100%; */
+    height: 60vh;
+    background-color: rgb(185, 185, 185);
+}
+
+.arrows{
+
+    width: 3em;
+    height: 3em;
+   
+    /* float: left; */
+    display: flex;
+}
+
+.arrow-left
+{
+    margin-top: 2.5vh;
+    margin-left: 20vw;
+
+    float: left;
+    
+    background-color: white;
+}
+.arrow-right
+{
+    width: 3em;
+    height: 3em;
+    float: left;
+    /* margin-top: 2.5vh; */
+    /* margin-left: 33vw; */
+    
+    background-color: white;
+}
